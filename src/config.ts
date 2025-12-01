@@ -1,90 +1,90 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "Manmeet Singh",
+  title: "Computer Science Student",
+  description: "Portfolio website of Manmeet Singh",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "mann.does.code@gmail.com",
+    linkedin: "https://www.linkedin.com/in/manmeet-singh-a000b3208/",
+    twitter: "#",
+    github: "https://github.com/Mann0001",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "Hi, I’m Manmeet. I’m a Computer Science student with a strong interest in software development, cloud technologies, and problem-solving. I enjoy turning ideas into working projects and constantly improving my technical skills. I’ve worked with Java, HTML/CSS, JavaScript, React, Node.js, and SQL, and I’m actively building real-world projects to strengthen my experience. I like clean code, learning new tools, and creating things that are practical. My goal is to grow as a software engineer and contribute to impactful projects.",
+  skills: ["Javascript", "React", "Node.js", "Java", "Docker"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "Wanderlust Travel Booking Platform",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "A full-stack travel accommodation platform inspired by Airbnb, where users can explore listings, view details, and book stays. Built with modern UI, secure authentication, and dynamic listing features.",
+      link: "https://wanderlust-project-855v.onrender.com/listings",
+      skills: ["Node.js", "Express", "MongoDB", "Cloudinary", "EJS", "Bootstrap"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "ReUseIt: E-Waste Recycling Platform",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "E-waste recycling platform built with React featuring device component analysis, Leaflet.js mapping for recycling centers with geolocation, chatbot for user queries, and multi-step pickup booking system",
+      link: "https://component-reuse-frontend.vercel.app/",
+      skills: ["React", "Leaflet.js", "Material-UI", "Axios", "React Router"],
     },
     {
-      name: "ExtensionKit",
+      name: "Real-Time Weather App",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "A fast and lightweight web app that shows real-time weather conditions using live API data. Includes temperature, humidity, wind speed, and location-based forecasts with a clean, responsive UI.",
+      link: "https://mann-weather.vercel.app/",
+      skills: ["React", "JavaScript", "Vercel"],
     },
   ],
-  experience: [
-    {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
-      bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
-      ],
-    },
-    {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
-      bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
-    },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
-      ],
-    },
-  ],
+  // experience: [
+  //   {
+  //     company: "Tech Company",
+  //     title: "Senior Software Engineer",
+  //     dateRange: "Jan 2022 - Present",
+  //     bullets: [
+  //       "Led development of microservices architecture serving 1M+ users",
+  //       "Reduced API response times by 40% through optimization",
+  //       "Mentored team of 5 junior developers",
+  //     ],
+  //   },
+  //   {
+  //     company: "Startup Inc",
+  //     title: "Full Stack Developer",
+  //     dateRange: "Jun 2020 - Dec 2021",
+  //     bullets: [
+  //       "Built and launched MVP product from scratch using React and Node.js",
+  //       "Implemented CI/CD pipeline reducing deployment time by 60%",
+  //       "Collaborated with product team to define technical requirements",
+  //     ],
+  //   },
+  //   {
+  //     company: "Digital Agency",
+  //     title: "Frontend Developer",
+  //     dateRange: "Aug 2018 - May 2020",
+  //     bullets: [
+  //       "Developed responsive web applications for 20+ clients",
+  //       "Improved site performance scores by 35% on average",
+  //       "Introduced modern JavaScript frameworks to legacy codebases",
+  //     ],
+  //   },
+  // ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "University Of Lucknow",
+      degree: "Bachelor of Computer Science and Engineering",
+      dateRange: "2022 - 2026",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
+        "Actively building projects in web development",
+        "Participating in coding challenges and tech programs",
+        "Strong academic performance",
       ],
     },
     {
-      school: "Online Platform",
+      school: "Apna College",
       degree: "Full Stack Development Certificate",
-      dateRange: "2019",
+      dateRange: "2025",
       achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
+        "Completed 200+ hours of coursework",
+        "Built 5+ projects",
         "Specialized in React and Node.js",
       ],
     },
