@@ -11,7 +11,7 @@ export const siteConfig = {
   },
   aboutMe:
     "Hi, I’m Manmeet. I’m a Computer Science student with a strong interest in software development, cloud technologies, and problem-solving. I enjoy turning ideas into working projects and constantly improving my technical skills. I’ve worked with Java, HTML/CSS, JavaScript, React, Node.js, and SQL, and I’m actively building real-world projects to strengthen my experience. I like clean code, learning new tools, and creating things that are practical. My goal is to grow as a software engineer and contribute to impactful projects.",
-  skills: ["Javascript", "React", "Node.js", "Java", "Docker"],
+  skills: ["Javascript", "React", "Node.js", "Mongo DB", "My SQL", "Java", "Docker"],
   projects: [
     {
       name: "Wanderlust Travel Booking Platform",
