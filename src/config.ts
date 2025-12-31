@@ -17,7 +17,7 @@ export const siteConfig = {
       name: "Wanderlust Travel Booking Platform",
       description:
         "A full-stack travel accommodation platform inspired by Airbnb, where users can explore listings, view details, and book stays. Built with modern UI, secure authentication, and dynamic listing features.",
-      link: "https://wanderlust-project-855v.onrender.com/listings",
+      link: "https://wanderlust-1pmn.onrender.com/listings",
       skills: ["Node.js", "Express", "MongoDB", "Cloudinary", "EJS", "Bootstrap"],
     },
     {
