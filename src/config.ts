@@ -80,12 +80,23 @@ export const siteConfig = {
     },
     {
       school: "Apna College",
-      degree: "Full Stack Development Certificate",
+      degree: "Full Stack Development",
       dateRange: "2025",
       achievements: [
         "Completed 200+ hours of coursework",
         "Built 5+ projects",
         "Specialized in React and Node.js",
+      ],
+    },
+    {
+      school: "GeeksforGeeks",
+      degree: "Data Structures & Algorithms (Java)",
+      dateRange: "2024 – 2025",
+      achievements: [
+        "Solved 200+ DSA problems using Java across LeetCode and GeeksforGeeks",
+        "Built strong foundation in arrays, strings, recursion, linked lists, stacks, queues, trees",
+        "Practiced problem-solving with focus on time and space complexity optimization",
+        "Strengthened core Java concepts through extensive hands-on coding practice",
       ],
     },
   ],
