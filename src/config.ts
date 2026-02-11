@@ -35,38 +35,26 @@ export const siteConfig = {
       skills: ["React", "JavaScript", "Vercel"],
     },
   ],
-  // experience: [
-  //   {
-  //     company: "Tech Company",
-  //     title: "Senior Software Engineer",
-  //     dateRange: "Jan 2022 - Present",
-  //     bullets: [
-  //       "Led development of microservices architecture serving 1M+ users",
-  //       "Reduced API response times by 40% through optimization",
-  //       "Mentored team of 5 junior developers",
-  //     ],
-  //   },
-  //   {
-  //     company: "Startup Inc",
-  //     title: "Full Stack Developer",
-  //     dateRange: "Jun 2020 - Dec 2021",
-  //     bullets: [
-  //       "Built and launched MVP product from scratch using React and Node.js",
-  //       "Implemented CI/CD pipeline reducing deployment time by 60%",
-  //       "Collaborated with product team to define technical requirements",
-  //     ],
-  //   },
-  //   {
-  //     company: "Digital Agency",
-  //     title: "Frontend Developer",
-  //     dateRange: "Aug 2018 - May 2020",
-  //     bullets: [
-  //       "Developed responsive web applications for 20+ clients",
-  //       "Improved site performance scores by 35% on average",
-  //       "Introduced modern JavaScript frameworks to legacy codebases",
-  //     ],
-  //   },
-  // ],
+  experience: [
+  {
+    company: "Tata Motors – Lucknow (Deva Plant)",
+    title: "Software Developer Intern (Full Stack)",
+    dateRange: "Jan 2026 - Feb 2026",
+    bullets: [
+      "Designed and developed a production-oriented Maintenance & Production Management System inspired by real Jishu Hosen (JH) manufacturing workflows.",
+      "Architected a role-based access control system (Admin, Supervisor, Operator) with secure login handling and structured relational schema design.",
+      "Built RESTful backend APIs using Node.js and Express.js integrated with MySQL for machine assignment, maintenance scheduling, and workflow enforcement.",
+      "Engineered a customizable preventive maintenance engine supporting time-based scheduling (seconds, minutes, hours, days) stored per machine in the database.",
+      "Implemented automatic maintenance ticket generation based on next_maintenance_due_at and maintenance_interval_seconds logic.",
+      "Developed dynamic maintenance ownership resolution where temporary machine reassignment overrides primary ownership.",
+      "Created time-bound temporary machine reassignment logic with automatic expiry and restoration of original operator ownership.",
+      "Designed normalized database schema including machines, users, roles, user_roles, machine_operator_assignment, temporary_assignments, and abnormalities tables.",
+      "Built responsive dashboards for Operators and Supervisors using HTML, CSS, and JavaScript with real-time machine visibility.",
+      "Implemented maintenance lifecycle tracking including ticket creation, completion, due dates, and automatic machine status updates.",
+      "Ensured data integrity through relational constraints, foreign key design patterns, and business-rule-based validation logic."
+    ],
+  },
+],
   education: [
     {
       school: "University Of Lucknow",
